@@ -1,0 +1,43 @@
+@import "./conf/customClasses";
+@import "./conf/variables";
+@import "./components/layout";
+@import "./components/services";
+
+
+
+.button {
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px   #222;
+  padding: 0.2rem 1rem;
+  margin: 1rem 0;
+}
+
+.counter {
+  background-color: #222;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.bg-dark{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 15px;
+    list-style-type: none;
+    
+    li{
+        display: flex;
+        gap: 2rem;
+        text-decoration: none;
+        a{
+            color: white;
+            text-decoration: none;
+     
+        }
+    }
+}
